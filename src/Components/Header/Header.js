@@ -4,8 +4,13 @@ import logo from '../../images/logo.png';
 
 const Header = () => {
     return (
-        <div className="heade-container">
+        <div className="header-container">
             <img src={logo} alt="" className="logo" />
+            <nav>
+                <a href="/shop">Shop</a>
+                <a href="/order">Order Review</a>
+                <a href="/inventory">Manage Inventory</a>
+            </nav>
         </div>
     );
 };
