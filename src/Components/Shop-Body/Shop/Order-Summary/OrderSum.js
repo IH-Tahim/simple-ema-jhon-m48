@@ -1,5 +1,6 @@
 import React from 'react';
-import './OrderSum.css'
+
+import './OrderSum.css';
 
 const OrderSum = (props) => {
     const products = props.cartItems;
