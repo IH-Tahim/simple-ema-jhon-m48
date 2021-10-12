@@ -1,6 +1,9 @@
 .logo{
     width: 250px;
 }
+.header-container{
+    text-align: center;
+}
 .header-container nav{
     background-color: #202020;
     padding: 15px 0px;

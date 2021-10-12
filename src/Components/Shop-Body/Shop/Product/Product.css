@@ -1,0 +1,37 @@
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid #a7a6a6;
+    padding-bottom: 8px;
+    margin: 0px 10px 10px 0px;    
+}
+.product-img{
+    width: 30%;
+    
+}
+.product-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-text{
+    width: 70%;
+}
+.product-text>*{
+    padding-left: 10px;
+    text-align: left;
+}
+.price{
+    font-weight: 700;
+}
+.cart-btn{
+    padding: 8px 20px;
+    background-color: #f0c14b;
+    border-radius: 8px;
+    border: none;
+    color: #222222;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
