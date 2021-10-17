@@ -17,9 +17,9 @@ const OrderSum = (props) => {
             <h5>Items Ordered: {props.cartItems.length}</h5>
             <br />
             <p>Price: ${total}</p>
-            <p>Shipping & Handling</p>
-            <p>Total before tax:</p>
-            <p>Estimated Tax:</p>
+            <p>Shipping & Handling: $00</p>
+            <p>Total before tax: $00</p>
+            <p>Estimated Tax: $00</p>
             <p>Order Total:	$0</p>
             <br />
             <button className="cart-btn">Review Order</button>
